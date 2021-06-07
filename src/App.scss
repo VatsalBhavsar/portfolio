@@ -75,9 +75,29 @@ body,
   padding-bottom: 3rem;
 }
 
+.section-sub-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: $oxfordBlue;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.section-description {
+  font-size: 1.4rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
 @media screen and (max-width: 769px) {
   .hide-md {
     display: none !important;
+  }
+  .section-description {
+    font-size: 1.2rem;
+    width: 100%;
   }
 }
 

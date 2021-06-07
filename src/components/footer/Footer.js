@@ -10,7 +10,10 @@ const Footer = () => {
       <div className={`container ${classes.footerContent}`}>
         <div className={classes.emailTitle}>Drop an email at</div>
         <div className={classes.email}>
-          <a href="mailto:vatsalbhavsar3@gmail.com">vatsalbhavsar@gmail.com</a>
+          <a href="mailto:vatsalbhavsar3@gmail.com">vatsalbhavsar3@gmail.com</a>
+        </div>
+        <div className={classes.email}>
+          <a href="mailto:vatsal@v-b.dev">vatsal@v-b.dev</a>
         </div>
         <div className={classes.linkedinUrl}>
           <a

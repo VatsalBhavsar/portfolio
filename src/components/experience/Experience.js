@@ -7,7 +7,7 @@ const Experience = () => {
   const classes = experienceStyles();
   return (
     <section className={`${classes.experienceContainer} container`}>
-      <div className={`section-title`}>Experience</div>
+      <div className="section-sub-title">{`Professional experience so far`}</div>
       <div className={classes.expBlock}>
         <div className={classes.expBlockLeft}></div>
         <span

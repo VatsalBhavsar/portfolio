@@ -4,7 +4,7 @@ import Colors from "../../utils/colorConstants";
 const experienceStyles = createUseStyles({
   experienceContainer: {
     marginTop: "3rem",
-    padding: "0 2rem 5rem 2rem",
+    padding: "0 2rem 6rem 2rem",
     [`@media screen and (max-width: 769px)`]: {
       padding: "0 1.5rem 4.5rem 1.5rem",
     },

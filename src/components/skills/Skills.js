@@ -18,7 +18,15 @@ const Skills = () => {
 
   return (
     <section id="about" className={`${classes.skillsContainer} container`}>
-      <div className={`section-title`}>Skills</div>
+      <div className="section-title">{`About me & my Career`}</div>
+      <div className="section-description">
+        {`An honest Frontend Engineer with over 4 years of experience and a keen
+        eye for detail in UI UX. Worked on several projects to develop intuitive
+        User Interfaces for web applications with expertise in Javascript &
+        ReactJs. Aspiring to learn a range of backend technologies to be a
+        Full-stack Engineer while excelling at Frontend development.`}
+      </div>
+      <div className="section-sub-title">{`Skills I've used or practiced so far`}</div>
       <div className={classes.skillsList}>
         <div className={classes.skillsListItem}>
           <div className={classes.skillItemIcon}>
