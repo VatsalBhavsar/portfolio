@@ -1,4 +1,5 @@
 import "./App.scss";
+import "./utils/animista.css";
 import Header from "./components/header/Header";
 import Banner from "./components/banner/Banner";
 import Skills from "./components/skills/Skills";
