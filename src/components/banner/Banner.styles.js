@@ -88,6 +88,11 @@ const bannerStyles = createUseStyles({
     },
   },
 
+  marqueeContainer: {
+    overflow: "hidden",
+    paddingBottom: "3px",
+  },
+
   myName: {
     animation: "$name-fill-animation 1s ease forwards 1s",
     // transform: "skew(-10deg, 0deg)",

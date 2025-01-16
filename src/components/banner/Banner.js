@@ -195,38 +195,47 @@ const Banner = () => {
         </div>
       </div>
       <div className={classes.bannerMarqueue}>
-        <Marquee gradientWidth={20} gradientColor={[15, 22, 48]} speed={50}>
-          <span>HTML</span>
-          <span>CSS</span>
+        <Marquee className={classes.marqueeContainer} gradientWidth={20} gradientColor={[15, 22, 48]} speed={50}>
           <span>JavaScript</span>
-          <span>Typescript</span>
           <span>ReactJs</span>
           <span>Redux</span>
-          <span>NodeJs</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Angular</span>
+          <span>React Testing Library</span>
+          <span>Jest</span>
+          <span>Typescript</span>
+          <span>Storybook</span>
           <span>GraphQL</span>
-          <span>Python</span>
+          <span>NodeJs</span>
           <span>MongoDB</span>
 
-          <span>HTML</span>
-          <span>CSS</span>
           <span>JavaScript</span>
-          <span>Typescript</span>
           <span>ReactJs</span>
           <span>Redux</span>
-          <span>NodeJs</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Angular</span>
+          <span>React Testing Library</span>
+          <span>Jest</span>
+          <span>Typescript</span>
+          <span>Storybook</span>
           <span>GraphQL</span>
-          <span>Python</span>
+          <span>NodeJs</span>
           <span>MongoDB</span>
 
-          <span>HTML</span>
-          <span>CSS</span>
           <span>JavaScript</span>
-          <span>Typescript</span>
           <span>ReactJs</span>
           <span>Redux</span>
-          <span>NodeJs</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Angular</span>
+          <span>React Testing Library</span>
+          <span>Jest</span>
+          <span>Typescript</span>
+          <span>Storybook</span>
           <span>GraphQL</span>
-          <span>Python</span>
+          <span>NodeJs</span>
           <span>MongoDB</span>
         </Marquee>
       </div>
