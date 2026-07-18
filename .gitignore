@@ -9,9 +9,8 @@
 /coverage
 
 # production
-/public
-/src
 /build
+/build.zip
 
 # misc
 .DS_Store
