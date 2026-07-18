@@ -28,7 +28,6 @@ const Skills = () => {
       <div className="section-title">{`About me & my Career`}</div>
       <div className="section-description">
         {`Accomplished Frontend Engineer with ${years}+ years of expertise in developing dynamic, user-friendly web applications using React, Angular, and JavaScript. I have a strong focus on delivering high-quality code, optimizing user experience, and mentoring junior developers. As I grow in my role, I am committed to continuously evolving in my craft, aiming to integrate UI/UX design principles more deeply into my work, aligning with my long-term goal of contributing to both technical and design decisions.`}
-        {/* {`As a Frontend Engineer with more than ${years} years of experience and a passion for UI UX, I possess a keen eye for detail and have contributed to several projects that have created intuitive user interfaces for web applications, utilizing my expertise in Javascript and ReactJs. I am continuously striving to learn more about UI UX design concepts so that I can take a more active role in the design process and ultimately achieve my goal of becoming a Product Designer.`} */}
       </div>
       <div className="section-sub-title">{`Skills I've used or practiced so far`}</div>
       <div className={classes.skillsList}>
