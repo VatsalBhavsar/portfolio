@@ -4,7 +4,7 @@ import Colors from "../../utils/colorConstants";
 const experienceStyles = createUseStyles({
   experienceContainer: {
     marginTop: "3rem",
-    padding: "0 2rem 5rem 2rem",
+    padding: "0 2rem 6rem 2rem",
     [`@media screen and (max-width: 769px)`]: {
       padding: "0 1.5rem 4.5rem 1.5rem",
     },
@@ -134,33 +134,33 @@ const experienceStyles = createUseStyles({
     },
   },
 
-  // presentDayTag: {
-  //   background: Colors.oxfordBlue,
-  //   color: "#ffffff",
-  //   padding: "0.3rem 0.8rem",
-  //   borderRadius: "0.2rem",
-  //   position: "absolute",
-  //   top: "-3rem",
-  //   left: "50%",
-  //   whiteSpace: "nowrap",
-  //   transform: "translate(-50%, 0)",
-  //   [`&:before`]: {
-  //     content: '""',
-  //     borderTop: `7px solid ${Colors.oxfordBlue}`,
-  //     borderBottom: "3px solid transparent",
-  //     borderLeft: "7px solid transparent",
-  //     borderRight: "7px solid transparent",
-  //     width: 0,
-  //     height: 0,
-  //     bottom: "-9px",
-  //     display: "block",
-  //     position: "absolute",
-  //     left: "50%",
-  //     transform: "translate(-50%, 0)",
-  //   },
-  // },
+  presentDayTagLeft: {
+    background: Colors.oxfordBlue,
+    color: "#ffffff",
+    padding: "0.3rem 0.8rem",
+    borderRadius: "0.2rem",
+    position: "absolute",
+    top: "-0.4rem",
+    right: "2rem",
+    whiteSpace: "nowrap",
+    [`&:before`]: {
+      content: '""',
+      borderTop: "5px solid transparent",
+      borderBottom: "5px solid transparent",
+      borderLeft: `7px solid ${Colors.oxfordBlue}`,
+      borderRight: "7px solid transparent",
+      width: 0,
+      height: 0,
+      bottom: 0,
+      right: "-14px",
+      display: "block",
+      position: "absolute",
+      top: "50%",
+      transform: "translate(0, -50%)",
+    },
+  },
 
-  presentDayTag: {
+  presentDayTagRight: {
     background: Colors.oxfordBlue,
     color: "#ffffff",
     padding: "0.3rem 0.8rem",
