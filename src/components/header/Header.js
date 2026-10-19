@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import headerStyles from "./Header.styles";
-import MyResume from "../../assets/files/vb.docx";
+
+const RESUME_FILE_NAME = "VatsalBhavsar-FrontendEngineer.docx";
+const RESUME_URL = `${process.env.PUBLIC_URL}/${RESUME_FILE_NAME}`;
 
 const Header = () => {
   const [menuState, setMenuState] = useState(0);
@@ -27,7 +29,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href={MyResume} download="VatsalBhavsar-FrontendEngineer.docx">
+              <a href={RESUME_URL} download={RESUME_FILE_NAME}>
                 <button type="submit" className={classes.downloadResumeBtn}>
                   Download Resume
                 </button>
@@ -83,7 +85,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href={MyResume} download="VatsalBhavsar-FrontendEngineer.docx">
+              <a href={RESUME_URL} download={RESUME_FILE_NAME}>
                 <button
                   type="submit"
                   className={`${classes.mobileMenuDownloadResume} ${classes.mobileMenuItem}`}
