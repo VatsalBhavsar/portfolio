@@ -12,9 +12,9 @@ const Footer = () => {
         <div className={classes.email}>
           <a href="mailto:vatsalbhavsar3@gmail.com">vatsalbhavsar3@gmail.com</a>
         </div>
-        <div className={classes.email}>
+        {/* <div className={classes.email}>
           <a href="mailto:vatsal@v-b.dev">vatsal@v-b.dev</a>
-        </div>
+        </div> */}
         <div className={classes.linkedinUrl}>
           <a
             href="https://www.linkedin.com/in/vatsal-bhavsar/"
