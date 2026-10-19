@@ -27,7 +27,7 @@ const Skills = () => {
     <section id="about" className={`${classes.skillsContainer} container`}>
       <div className="section-title">{`About me & my Career`}</div>
       <div className="section-description">
-        {`Accomplished Frontend Engineer with ${years}+ years of expertise in developing dynamic, user-friendly web applications using React, Angular, and JavaScript. I have a strong focus on delivering high-quality code, optimizing user experience, and mentoring junior developers. As I grow in my role, I am committed to continuously evolving in my craft, aiming to integrate UI/UX design principles more deeply into my work, aligning with my long-term goal of contributing to both technical and design decisions.`}
+        {`Senior Frontend Engineer with ${years}+ years building enterprise web applications in React, Angular, and TypeScript across fintech (Goldman Sachs), FMCG analytics (P&G, Coca-Cola), and enterprise SaaS. Currently leading frontend architecture for a greenfield micro-frontend platform, from technology selection to engineering standards, while mentoring engineers and shipping features as a hands-on senior IC. Bringing UI/UX design thinking into technical decisions, with an interest in owning both the engineering and design direction of a product.`}
       </div>
       <div className="section-sub-title">{`Skills I've used or practiced so far`}</div>
       <div className={classes.skillsList}>
